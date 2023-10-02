@@ -1,0 +1,30 @@
+.dashboard-container{
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/lukas-blazek-EWDvHNNfUmQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    justify-content: center;
+    font-family: poppins;
+}
+
+p{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: gray;
+    /* padding: 250px; */
+    padding-top: 25%;
+    font-family: poppins;
+}
+
+h6{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+    /* padding: 250px; */
+    padding-top: 2%;
+    font-family: poppins;
+}

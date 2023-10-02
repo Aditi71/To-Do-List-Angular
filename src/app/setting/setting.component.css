@@ -1,0 +1,36 @@
+.setting{
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/lukas-blazek-EWDvHNNfUmQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    justify-content: center;
+}
+
+p{
+    font-size: 22px;
+    font-weight: 300;
+    padding-top: 2%;
+    text-align: center;
+    font-family: poppins;
+    font-style: normal;
+
+}
+
+.settings-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dark-mode {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dark-mode span {
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,134 @@
+.sidenav-container{
+    font-family: lato;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: poppins;
+}
+
+.user img{
+    height: 120px;
+    padding-top: 6%;
+}
+/* .subheading{
+    color: navy;
+} */
+mat-icon{
+    vertical-align: center;
+    margin-right: 1rem;
+    color: black;
+}
+
+.user{
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.name{
+    padding-top: 5%;
+    color: black;
+}
+
+.mail{
+    margin-top: -16px;
+    color: black;
+}
+/* 
+mat-label{
+    color: black;
+    padding-left: 3%;
+} */
+mat-divider{
+    border-top-width: 2px;
+    border-color: lightgray;
+}
+
+.menu-head{
+    color: black;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+/* 
+.menu-item{
+    display: flex;
+    flex-direction: column; 
+    margin: 0 10px 0 10px;
+    float: left;
+    margin-right: 10px;
+    /* align-items: left;
+    align-content: flex-start;
+    align-self: flex-start; */
+    /* padding-right: 3%; */
+    /* justify-content: end; */
+
+.menu-item {
+        display: flex; /* Use Flexbox to create a row layout */
+        flex-direction: column; /* Arrange items horizontally */
+        align-items: center; /* Vertically align items to the center */
+        margin: 0 10px 0 10px;
+        float: left;
+        margin-right: 10px;
+}
+    
+.menu-button {
+    /* padding-left: 40px; */
+    margin-bottom: 10px;
+ }
+    
+.menu-button span {
+    margin-left: 15px;
+    color: black;
+}
+
+.menu-button:hover{
+    background-color: lightgray;
+}
+
+.menu-button:focus{
+    background-color: lightgray;
+}
+
+
+
+/* span {
+    align-items: left;
+} */
+
+/* .menu-button{
+    display: block;
+    width: 100%;
+    position:relative;
+    display: flex;
+    padding-left: 40px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+.menu-button span{
+    margin-left: 15px;
+    color: gray;
+} */
+
+/* 
+mat-list-item{
+    padding-top: 2%;
+    font-size: 0.8rem;
+    height: 44px !important;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    margin: 0 8px; */
+    /* &:hover{
+        background: blue !important;
+    } */
+
+
+/* .icon{
+    color: black;
+} */
+/* Change the color of primary text in Material Design list items */
+/* .mdc-list-item__primary-text {
+    color: blue; /* Change this to the desired color value */
+  

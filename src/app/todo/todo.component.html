@@ -1,0 +1,45 @@
+<div class="todo-container">
+
+  <mat-form-field class="add-task-input" appearance="outline">
+    <input matInput class="input" placeholder="Add Task" [(ngModel)]="newTask">
+    <button mat-icon-button matSuffix color="warn" (click)="addTask()">
+      <mat-icon>add</mat-icon>
+    </button>
+  </mat-form-field>
+
+
+  <div class="tasks-container">
+    <div class="task-list">
+      <mat-card class="cards" *ngFor="let task of tasks">
+        <mat-card-content class="input" [ngClass]="{'completed-task': task.completed}">
+          <span>{{ task.name }}</span>
+          <button mat-icon-button color="primary" (click)="toggleTaskCompletion(task)">
+            <mat-icon class="icon">{{ task.completed ? 'check_circle' : 'radio_button_unchecked' }}</mat-icon>
+          </button>
+          <button mat-icon-button color="accent" (click)="editTask(task)">
+            <mat-icon class="icon">edit</mat-icon>
+          </button>
+          <button mat-icon-button color="warn" (click)="deleteTask(task)">
+            <mat-icon class="icon">delete</mat-icon>
+          </button>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+  
+  <div class="completed-container">
+    <mat-card class="cards" *ngIf="completedTasks.length > 0">
+      <h4 class="title">Completed Task:</h4>
+      <!-- <mat-card-title class="title"> Completed Tasks </mat-card-title> -->
+      <mat-card-content class="input">
+        <ul>
+          <li *ngFor="let task of completedTasks">{{ task.name }}</li>
+        </ul>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  
+</div>
+  
+
+  
